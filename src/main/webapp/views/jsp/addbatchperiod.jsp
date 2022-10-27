@@ -52,25 +52,43 @@ button {
 	<br>
 	<div class="container">
 		<h2>
-			<center>Add Batch</center>
+			<center>Batch</center>
 		</h2>
 		<div class="col-md-offset-3 col-md-7">
 			<div class="panel panel-default">
 				<div class="panel-body">
 
-					<form class="form-horizontal" action="batchperiod" method="post">
+					<form class="form-horizontal" action="save" method="post">
+					<div class="form-group">
+							<label class="control-label col-sm-3" for="startdate">Start Date:</label>
+							<div class="col-sm-6">
+								<input type="date" class="form-control " id="startdate"
+									placeholder="Enter Batch startdate" name="startdate">
+							</div>
+						</div>
 						<div class="form-group">
-							<label class="control-label col-sm-3" for="batch">Batch
+							<label class="control-label col-sm-3" for="enddate">End Date:</label>
+							<div class="col-sm-6">
+								<input type="date" class="form-control " id="enddate"
+									placeholder="Enter Batch startdate" name="enddate">
+							</div>
+						</div>
+					
+					
+					
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="batchno">Batch
 								Number:</label>
 							<div class="col-sm-6">
-								<input type="text" class="form-control " id="batch"
-									placeholder="Enter Batch Number" name="batch">
+								<input type="text" class="form-control " id="batchno"
+									placeholder="Enter Batch Number" name="batchno">
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="control-label col-sm-3" for="mode">Mode:</label>
 							<div class="col-sm-6">
 								<select name="mode" id="mode" class="form-control">
+									
 									<option value="online">Online</option>
 									<option value="offline">Offline</option>
 									<option value="both">Both</option>
@@ -81,14 +99,7 @@ button {
 
 						</div>
 
-						<div class="form-group">
-							<label class="control-label col-sm-3" for="batch">Mode:</label>
-							<div class="col-sm-6">
-								<input type="text" class="form-control " id="batch"
-									placeholder="Enter Batch Number" name="batch">
-							</div>
-						</div>
-
+						
 						<div class="form-group">
 							<div class="col-sm-offset-2 col-sm-3">
 								<button type="submit" class="btn btn-dark">Add Batch</button>

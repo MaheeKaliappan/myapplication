@@ -10,6 +10,7 @@ public class Batch {
 	private String batchAddedBy;
 	private String batchAddedOn;
 	private String batchModifiedBy;
+	private String batchModifiedOn;
 	
 	
 	public Integer getBatchId() {
@@ -72,6 +73,6 @@ public class Batch {
 	public void setBatchModifiedOn(String batchModifiedOn) {
 		this.batchModifiedOn = batchModifiedOn;
 	}
-	private String batchModifiedOn;
+	
 
 }

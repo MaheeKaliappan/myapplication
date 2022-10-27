@@ -33,7 +33,7 @@ public class LoginController extends HttpServlet {
 	protected void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
 		String uri = request.getRequestURI().toString();
 		LoginDAO loginDao = new LoginDAO();
-		
+		//System.out.println("aaaaaa");
 		try {
 		if(uri.contains("login"))
 		{

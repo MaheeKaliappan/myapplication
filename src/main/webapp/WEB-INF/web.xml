@@ -38,15 +38,29 @@
 	<servlet-mapping>
 		<servlet-name>AdminController</servlet-name>
 		<url-pattern>/departement</url-pattern>
-		<url-pattern>/branch</url-pattern>
-		<url-pattern>/batchperiod</url-pattern>
-		<url-pattern>/compliationstatus</url-pattern>
 		<url-pattern>/department/delete</url-pattern>
 		<url-pattern>/department/edit</url-pattern>
 		<url-pattern>/department/add</url-pattern>
 		<url-pattern>/department/save</url-pattern>
 		<url-pattern>/department/update</url-pattern>
-
+		
+		<url-pattern>/branch</url-pattern>
+		<url-pattern>/branch/delete</url-pattern>
+		<url-pattern>/branch/edit</url-pattern>
+		<url-pattern>/branch/add</url-pattern>
+		<url-pattern>/branch/save</url-pattern>
+		<url-pattern>/branch/update</url-pattern>
+		
+		<url-pattern>/batchperiod</url-pattern>
+		<url-pattern>/batchperiod/branch</url-pattern>
+		<url-pattern>/batchperiod/delete</url-pattern>
+		<url-pattern>/batchperiod/edit</url-pattern>
+		<url-pattern>/batchperiod/add</url-pattern>
+		<url-pattern>/batchperiod/save</url-pattern>
+		<url-pattern>/batchperiod/update</url-pattern>
+		
+		<url-pattern>/compliationstatus</url-pattern>
+		
 	</servlet-mapping>
 	
 		<servlet>

@@ -50,7 +50,7 @@
    <div class="panel panel-default">
    <div class="panel-body">
 		
-		<form class="form-horizontal" action="branch" method="post">
+		<form class="form-horizontal" action="save" method="post">
 			<div class="form-group">
 				<label class="control-label col-sm-3" for="areaName">Area Name:</label>
 				<div class="col-sm-6">
